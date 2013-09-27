@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="rn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">Czat Bluetooth</string>
+    <string name="hello_world">Hello world!</string>
+
+    <!--  BluetoothChat -->
+    <string name="send">Wyślij</string>
+    <string name="not_connected">Nie jesteś podłączony do urządzenia</string>
+    <string name="bt_not_enabled_leaving">Bluetooth nie został włączony, do widzenia.</string>
+    <string name="title_connecting">łączę...</string>
+    <string name="title_connected_to">połączony z <xliff:g id="device_name">%1$s</xliff:g></string>
+    <string name="title_not_connected">nie połączony</string>
+    <string name="new_message">Nowa wiadomość!</string>
+    <string name="new_message_r">Odebrano!</string>
+    <string name="notify">Powiadomienia</string>
+    <string name="sound">Dźwięki powiadomień</string>
+    <string name="vibrate">Wibracje</string>
+    <string name="save">Zapisz</string>
+    <string name="saved">Zapisano</string>
+    <string name="hint_text">Wpisz swoją wiadomość tutaj...</string>
+    
+    <!--  Authors -->
+    <string name="team"><b>Grupa projektowa nr 2</b></string>
+    <string name="author">Jakub Jachym, Bartłomiej Kumor, Norbert Kozera</string>
+    <string name="jj">Jakub &#34;Yoham&#34; Jachym - student Politechniki Krakowskiej na kierunku Informatyka, wydział WIEiK. Szef grupy, GUI designer, 
+        				również odpowiedzialny za kod reklam, ustawień i powiadomień a także pomniejszych rzeczy. Zwyczajny "mind-destroyer".</string>
+    <string name="bk">Bartłomiej &quot;Henrar / General Whiskas&quot; Kumor - student Politechniki Krakowskiej na kierunku Informatyka, wydział WIEiK. Programista i twórca widgetu, 
+        				odpowiedzialny za sprawy związane z łacznością bluetooth i pomniejsze rzeczy. Koder klasy DeviceListenActivity. Naczelny zjadacz karmy dla kotów.</string>
+    <string name="nk">Norbert &quot;Roger / Kozi&quot; Kozera - student Politechniki Krakowskiej na kierunku Informatyka, wydział WIEiK. Drugi programista, odpowiedzialny za pozostałe rzeczy związane z nawiazywaniem połączeń. 
+        				Odpowiedzialny również za wdrozenie do programu SharedPrefs, wsparcie w implementacji reklam, a takze stworzenie wespół z Bartłomiejem Kumorem ikony programu. Maskotka naszej grupy :)</string>    
+
+
+    <!--  DeviceListActivity -->
+    <string name="scanning">szukam urządzeń...</string>
+    <string name="select_device">Wybierz urządzenie</string>
+    <string name="none_paired">Nie sparowano żadnych urządzeń</string>
+    <string name="none_found">Nie znaleziono urządzeń</string>
+    <string name="title_paired_devices">Sparowane urządzenia</string>
+    <string name="title_other_devices">Inne dostępne urządzenia</string>
+    <string name="button_scan">Szukaj urządzeń</string>
+    <string name="unable">Nie można nawiązać połączenia</string>
+
+    <!-- Options Menu -->
+    <string name="secure_connect">Połącz z urządzeniem</string>
+    <string name="insecure_connect">Połącz z urządzeniem - Insecure</string>
+    <string name="discoverable">Włącz widocznosć BT</string>
+    <string name="authors">Autorzy</string>
+    <string name="set1">Ustawienia</string>
+
+</resources>

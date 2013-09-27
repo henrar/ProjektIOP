@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#000"
+    android:textColor="#fff">
+
+    <item android:id="@+id/secure_connect_scan"
+        android:icon="@android:drawable/ic_menu_view"
+        android:title="@string/secure_connect"
+        android:background="#000"
+        android:textColor="#fff"
+        android:showAsAction="ifRoom|withText" />
+    <item android:id="@+id/insecure_connect_scan"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="@string/insecure_connect"
+        android:background="#000"
+        android:textColor="#fff"
+        android:showAsAction="never" />
+    <item android:id="@+id/discoverable"
+        android:icon="@android:drawable/ic_menu_mylocation"
+        android:title="@string/discoverable"
+        android:background="#000"
+        android:textColor="#fff"
+        android:showAsAction="never" />
+    <item android:id="@+id/set1"
+        android:icon="@android:drawable/ic_menu_mylocation"
+        android:title="@string/set1"
+        android:background="#000"
+        android:textColor="#fff"
+        android:showAsAction="never" />
+    <item android:id="@+id/authors1"
+        android:icon="@android:drawable/ic_dialog_info"
+        android:title="@string/authors"
+        android:background="#000"
+        android:textColor="#fff"
+        android:showAsAction="never" />
+</menu>

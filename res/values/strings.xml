@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="rn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">Bluetooth Chat</string>
+    <string name="hello_world">Hello world!</string>
+
+    <!--  BluetoothChat.addFree -->
+    <string name="send">Send</string>
+    <string name="not_connected">You are not connected to any device</string>
+    <string name="bt_not_enabled_leaving">Bluetooth was not enabled. Leaving Bluetooth Chat.</string>
+    <string name="title_connecting">connecting...</string>
+    <string name="title_connected_to">connected to <xliff:g id="device_name">%1$s</xliff:g> </string>
+    <string name="title_not_connected">not connected</string>
+    <string name="new_message">New message!</string>
+    <string name="new_message_r">Received!</string>
+    <string name="notify">Notifications</string>
+    <string name="sound">Notification sounds</string>
+    <string name="vibrate">Vibrations</string>
+    <string name="save">Save</string>
+    <string name="saved">Saved</string>
+    <string name="hint_text">Type your message here...</string>
+    
+    <!--  Authors -->
+    <string name="team"><b>Team nr 2</b></string>
+    <string name="author">Jakub Jachym, Bartłomiej Kumor, Norbert Kozera</string>
+    <string name="jj">Jakub &#34;Yoham&#34; Jachym - Cracow University of Technology student at the faculty of IT - WIEiK. Project leader, GUI designer, 
+        				responsible for Ads, Settings and Notifications as well as other minor stuff. Ordinary "mind-destroyer".</string>
+    <string name="bk">Bartłomiej &quot;Henrar / General Whiskas&quot; Kumor - Cracow University of Technology student at the faculty of IT - WIEiK. Widget designer and coder, 
+        				responsible for minor conectivity stuff and bluetooth, as well as DeviceListenActivity class. Chief among cats.</string>
+    <string name="nk">Norbert &quot;Roger / Kozi&quot; Kozera - Cracow University of Technology student at the faculty of IT - WIEiK. Second coder and conectivity maintainer of application. 
+        				Also responsible for creating SharedPrefs, ads and creating icon graphic with Bartłomiej Kumor. Team mascot :)</string>
+
+    <!--  DeviceListActivity -->
+    <string name="scanning">scanning for devices...</string>
+    <string name="select_device">select a device to connect</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="none_found">No devices found</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="button_scan">Scan for devices</string>
+    <string name="unable">Unable to connect device</string>
+
+    <!-- Options Menu -->
+    <string name="secure_connect">Connect to device</string>
+    <string name="insecure_connect">Connect to device - Insecure</string>
+    <string name="discoverable">Make discoverable</string>
+    <string name="authors">Authors</string>
+    <string name="set1">Settings</string>
+
+
+
+</resources>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Mostly created by Jakub Jachym from PK WIEiK -->

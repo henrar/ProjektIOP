@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+
+    package="com.wieik.bluetoothchat"
+    android:versionCode="1"
+    android:versionName="1.4.2" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="18" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.wieik.bluetoothchat.MainActivity"
+            android:label="@string/app_name"
+            android:configChanges="orientation|keyboardHidden" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            
+        </activity>
+        <activity android:name=".DeviceListActivity"
+            android:label="@string/select_device"
+            android:theme="@android:style/Theme.Holo.Dialog"
+            android:configChanges="orientation|keyboardHidden" />
+       <activity android:name=".Authors"
+            android:label="@string/authors"
+            android:theme="@android:style/Theme.Holo.Dialog"
+            android:configChanges="orientation|keyboardHidden" />
+        <activity android:name=".Settings"
+            android:label="@string/select_device"
+            android:theme="@android:style/Theme.Holo.Dialog"
+            android:configChanges="orientation|keyboardHidden" />
+        <activity android:name=".NotificationReceiver"
+        android:label="@string/select_device"
+        android:theme="@android:style/Theme.Holo.Dialog"
+        android:configChanges="orientation|keyboardHidden" />
+        	<activity android:name=".FirstTab" />
+	<activity android:name=".SecondTab" />
+	<activity android:name=".ThirdTab" />
+
+<!--  Widget plus adds... -->
+    <receiver
+            android:name=".BTWidgetProvider"
+            android:icon="@drawable/bticon"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_info" />
+        </receiver>
+    <receiver   android:name=".BTBroadcastReceiver"></receiver>
+    
+        <activity android:name="com.google.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+    </application>
+
+
+
+
+</manifest>
+
+    <!-- 1058 linii kodu w Javie + 263 linie xml obsługi activities -->
